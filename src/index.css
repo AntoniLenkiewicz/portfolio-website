@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+@plugin "tailwind-scrollbar";
+
+body {
+  @apply min-h-screen flex flex-col bg-gray-500 text-gray-200;
+  font-family: "Share Tech Mono", monospace;
+}
+h1 {
+  @apply text-4xl;
+}
+h2 {
+  @apply text-2xl;
+}
+h3 {
+  @apply text-xl;
+}
+
+
+
+custom-scrollbar {
+  @apply scrollbar scrollbar-thumb-blue-500 scrollbar-track-gray-200;
+}
